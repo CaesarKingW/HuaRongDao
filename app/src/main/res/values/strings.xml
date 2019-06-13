@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">三国华容道</string>
+    <string name="restart_text">重新开始</string>
+    <string name="exit_text">退出游戏</string>
+    <string name="level3_text">第3关-先擒后纵</string>
+    <string name="level4_text">第4关-齐头并进</string>
+    <string name="level2_text">第2关-捷足先登</string>
+    <string name="level1_text">第1关-横刀立马</string>
+</resources>

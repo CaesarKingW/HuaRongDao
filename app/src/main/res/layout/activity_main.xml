@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/level1_button2"
+        android:layout_width="179dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/button_background"
+        android:onClick="exitGame"
+        android:text="@string/exit_text"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/level1_button4"
+        app:layout_constraintVertical_bias="0.156" />
+
+    <Button
+        android:id="@+id/level1_button3"
+        android:layout_width="179dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/button_background"
+        android:onClick="StartLevel3"
+        android:text="@string/level3_text"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/level1_button5" />
+
+    <Button
+        android:id="@+id/level1_button4"
+        android:layout_width="179dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/button_background"
+        android:onClick="StartLevel4"
+        android:text="@string/level4_text"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/level1_button3" />
+
+    <Button
+        android:id="@+id/level1_button5"
+        android:layout_width="179dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/button_background"
+        android:onClick="StartLevel2"
+        android:text="@string/level2_text"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/level1_button" />
+
+    <Button
+        android:id="@+id/level1_button"
+        android:layout_width="179dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/button_background"
+        android:onClick="StartLevel1"
+        android:text="@string/level1_text"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
